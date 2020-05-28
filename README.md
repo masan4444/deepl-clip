@@ -3,7 +3,9 @@ The simple shell-script which translate the clipboard through the DeepL website,
 
 ![demo](https://raw.githubusercontent.com/wiki/masan4444/deepl-clip/deepl-clip.gif)
 
-This runs on Linux, and automatically removes the line feed code !
+This runs **on Linux**, and automatically removes the line feed code !
+
+This does **NOT** run on Mac and BSD.
 
 ## Dependencies
 * xsel
