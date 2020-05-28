@@ -44,3 +44,7 @@ sh deepl-clip/app.sh
 You can call this shell-script from a keyboard shortcut
 
 ![shortcut](https://raw.githubusercontent.com/wiki/masan4444/deepl-clip/deepl-clip_shortcut.png)
+
+
+## Links
+Twitter: https://twitter.com/444413131313/status/1265824222229590017
