@@ -3,5 +3,5 @@ from=en
 to=ja  # de, fr, es, etc.
 browser=xdg-open
 
-text=$(xsel -bo | sed ':loop; N; $!b loop; s/\n//g' | nkf -WwMQ | sed 's/=$//g' | tr = % | tr -d '\n')
+text=$(xclip c -o | sed ':loop; N; $!b loop; s/\n//g' | nkf -WwMQ | sed 's/=$//g' | tr = % | tr -d '\n')
 $browser "https://www.deepl.com/translator#${from}/${to}/${text}"

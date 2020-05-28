@@ -8,7 +8,7 @@ This runs **on Linux**, and automatically removes the line feed code !
 This does **NOT** run on Mac and BSD.
 
 ## Dependencies
-* xsel
+* ~~xsel~~ xclip
 * nkf
 * xdg-open
 
@@ -16,21 +16,26 @@ This does **NOT** run on Mac and BSD.
 
 ### Ubuntu (Debian)
 ```
-sudo apt install xsel nkf
+sudo apt install xclip nkf
 git clone git@github.com:masan4444/deepl-clip.git
 chown u+x deepl-clip/app.sh
 ```
 
-### CentOS
-writing
+### CentOS (RedHat)
+```
+yum install epel-release
+yum install xclip nkf
+git clone git@github.com:masan4444/deepl-clip.git
+chown u+x deepl-clip/app.sh
+```
 
 ## Usage
-Edit language setting
+Edit language setting ([app.sh](https://github.com/masan4444/deepl-clip/blob/master/app.sh))
 ```
-1 #!/bin/sh
-2 from=en
-3 to=ja  # de, fr, es, etc. <--------
-4 browser=xdg-open
+#!/bin/sh
+from=en
+to=ja  # de, fr, es, etc. <-------- change
+browser=xdg-open
 ```
 Open deepl website and translate the clipboard
 ```
