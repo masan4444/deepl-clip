@@ -17,7 +17,7 @@ This does **NOT** run on Mac and BSD.
 ### Ubuntu (Debian)
 ```
 sudo apt install xclip nkf
-git clone git@github.com:masan4444/deepl-clip.git
+git clone https://github.com/masan4444/deepl-clip.git
 chmod u+x deepl-clip/app.sh
 ```
 
@@ -25,7 +25,7 @@ chmod u+x deepl-clip/app.sh
 ```
 yum install epel-release
 yum install xclip nkf
-git clone git@github.com:masan4444/deepl-clip.git
+git clone https://github.com/masan4444/deepl-clip.git
 chmod u+x deepl-clip/app.sh
 ```
 
