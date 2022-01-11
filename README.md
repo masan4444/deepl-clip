@@ -18,7 +18,7 @@ This does **NOT** run on Mac and BSD.
 ```
 sudo apt install xclip nkf
 git clone https://github.com/masan4444/deepl-clip.git
-chmod u+x deepl-clip/app.sh
+chmod u+x deepl-clip/deepl-clip.sh
 ```
 
 ### CentOS (RedHat)
@@ -26,11 +26,11 @@ chmod u+x deepl-clip/app.sh
 yum install epel-release
 yum install xclip nkf
 git clone https://github.com/masan4444/deepl-clip.git
-chmod u+x deepl-clip/app.sh
+chmod u+x deepl-clip/deepl-clip.sh
 ```
 
 ## Usage
-Edit language setting ([app.sh](https://github.com/masan4444/deepl-clip/blob/master/app.sh))
+Edit language setting ([deepl-clip.sh](https://github.com/masan4444/deepl-clip/blob/master/deepl-clip.sh))
 ```
 #!/bin/sh
 from=en
@@ -39,7 +39,7 @@ browser=xdg-open
 ```
 Open deepl website and translate the clipboard
 ```
-sh deepl-clip/app.sh
+sh deepl-clip/deepl-clip.sh
 ```
 You can call this shell-script from a keyboard shortcut
 
