@@ -47,7 +47,7 @@ browser=xdg-open
 Open deepl website and translate the clipboard
 
 ```
-sh deepl-clip/deepl-clip.sh
+sh deepl-clip.sh
 ```
 
 You can call this shell-script from a keyboard shortcut
