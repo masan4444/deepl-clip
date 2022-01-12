@@ -1,0 +1,1 @@
+deepl-clip.sh
